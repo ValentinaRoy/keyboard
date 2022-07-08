@@ -1,0 +1,100 @@
+body {
+    background: #1b88a3;
+
+   
+    background: linear-gradient(to right, #01a5a0, #0c9e57);
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 13%;
+    align-items: center;
+  }
+  
+  .row {
+    width: 100%;
+    height: 60px;
+  }
+
+  
+  .zero,.one,.two,.three,.four,.five{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin: 10px 0 0 10px ;
+    width: 1000px;
+  }
+  
+  
+  button {
+    color: black;
+    font-weight: 500;
+    width: 10%;
+    height: 55px;
+    border: none;
+    background: rgb(214, 214, 214);
+    box-shadow: 0 0 6px #0ccdfd, 0 0 15px #00ffe1, 0 0 15px #00ff84;
+  
+    font-size: 15px;
+    margin: 0 3px 0 3px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+  }
+  button:hover{
+    box-shadow: 1px 1px 2px #0ccdfd, 1px 1px 2px #00ff84;
+    font-size: larger;
+  }
+  
+  
+  .print {
+    width: 85px;
+    border-radius: 10px;
+  }
+  
+  .back {
+    width: 148px;
+    border-radius: 10px;
+  }
+  
+  .tab {
+    width: 13%;
+    border-radius: 10px;
+  }
+  
+  .slace {
+    width: 90px;
+    border: 10px;
+  }
+  
+  .cap {
+    width: 20%;
+    border-radius: 10px;
+  }
+  
+  .enter-btn {
+    width: 109px;
+    border-radius: 10px;
+  }
+  
+  .shift {
+    width: 15%;
+    border-radius: 10px;
+   
+  }
+  
+  .last {
+    width: 56px;
+    border-radius: 10px;
+  }
+  
+  .space {
+    
+    width:45%;
+    border-radius: 10px;
+  
+  }
+  
